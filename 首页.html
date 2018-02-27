@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>莎莎官网</title>
+		<link rel="icon" type="text/css" href="https://cdnec.sasa.com/public/app/site/statics/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" href="js/js/css/bootstrap.min.css"/>
+		<script type="application/javascript" src="js/js/jquery-1.11.0.js"></script>
+		<script language="javascript" src="js/js/js/bootstrap.min.js"></script>
+		<script language="javascript" src="js/new_file.js"></script>
+		<style  type="text/css">
+			
+			.login_bar .login_a{
+				
+				margin-left:50px;	
+			}	
+			@font-face {
+			  font-family: 'iconfont';  /* project id 503265 */
+			  src: url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.eot');
+			  src: url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.eot?#iefix') format('embedded-opentype'),
+			  url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.woff') format('woff'),
+			  url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.ttf') format('truetype'),
+			  url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.svg#iconfont') format('svg');
+			}
+			.iconfont{
+			  font-family:"iconfont" !important;
+			  font-size:19px;
+			  font-style:normal;
+			  color: #ec3e7d;
+			  -webkit-font-smoothing: antialiased;
+			  -webkit-text-stroke-width: 0.2px;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+			.sidebar .iconfont{
+				-webkit-text-stroke-width: 0.1px;
+				color: #c69a62;
+			}
+			.sidebar .box1 .iconfont{
+				font-size: 28px;
+				margin-left: 5px;
+			}
+			.sidebar .box2 .iconfont{
+				font-size: 36px;
+			    
+			    margin-left: -10px;
+			}
+			.sidebar .box4{
+				margin-top: 10px;
+			}
+			.sidebar .box5{
+				margin-bottom: 10px;
+			}
+			.sidebar .box6:hover{
+				background-color: #ec3e7d;
+			}
+			.box1{
+				position: relative;
+			}
+			.box_a{
+				position: absolute;
+				left: -100px;
+				top:0;
+				width: 90px;
+				height: 36px;
+				display: none;
+				background-color: rgb(64, 62, 62);
+			}
+			.box_a:after{
+				content: '';
+			    width: 0;
+			    height: 0;
+			    border: 10px solid transparent;
+			    border-left-color: rgb(64, 62, 62);
+			    position: absolute;
+			    left: 100%;
+			    top: 20%;
+			}
+			.sidebar a{
+				font-size: 14px;
+				color: white;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+		
+		<div class="topbar" id="top">
+			<div class="page_rs">
+				<div class="login_bar">
+					<span class="login_bar_a">欢迎光临莎莎网！</span>
+					<span class="login_bar_b" style="float: right; width: 87px; height: 32px;">
+						<a href="登录.html" style="width: 36px; font-size: 13px;">登录</a>
+						<p style="width: 15px; float: left; font-size: 13px;">或</p>
+						<a href="注册.html" style="font-size: 13px; width: 36px; float: right;">注册</a>
+					</span>
+				</div>
+				<div class="member_link">
+					<ul>
+						<li>
+							<div class="linka">
+								<a href="#" style="position: relative;">
+									<i class="iconfont">&#xe604;</i>
+									<span>我的账户</span>
+									<i class="iconfont" style="color: #8C8888; position: absolute; top: 3px; left: 90px;">&#xe606;</i>
+								</a>
+							</div>
+							<div class="linkb">
+								<ul>
+									<li>
+										<a href="注册.html">立即注册</a>
+									</li>
+									<li>
+										<a href="登录.html">立即登录</a>
+									</li>
+									<li>
+										<a href="#">我的订单</a>
+									</li>
+									<li>
+										<a href="#">我的积分</a>
+									</li>
+									
+									<li>
+										<a href="#">我的收藏</a>
+									</li>
+									<li>
+										<a href="#">我的评分</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="gwc">
+								<a href="#">
+									<i class="iconfont" style="font-size: 15px; margin-left: 11px;">&#xe602;</i>
+									<span>我的购物车</span>
+								</a>
+							</div>
+							<div class="gwca">
+								<ul>
+									<li>
+										<p>购物车中还没有商品，</p>
+									</li>
+									<br>
+									<li>
+										<p>快去挑选心爱的商品吧</p>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="font-size: 15px; margin-left: 18px;">&#xe60e;</i>
+								<span>我的收藏</span>
+							</a>
+						</li>
+						<li>
+							<span>我的站内信</span>
+						</li>
+						<li><span>积分中心</span></li>
+						<li class="member_link_a">
+							<span class="span1">关注我们</span>
+							<span class="span2">
+								<i class="iconfont" style="color: #e89b2c;">&#xe60d;</i>
+								<img src="img/c (13).gif" alt=""  class="imga" style="width: 90px;"/>
+							</span>
+							<span class="span3">
+								<i class="iconfont" style="color: #4CAE4C;">&#xe65e;</i>
+								<img src="img/c (14).gif" alt=""  class="imgb" style="width: 90px;"/>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_main">
+			<div class="page_rs">
+				<div class="page_rs_z">
+					<a href="#">
+						<img src="img/xtp-(4)_26.gif"/>
+					</a>
+				</div>
+
+				<div class="page_rs_y">
+					<ul class="lupage">
+						<li>
+							<span class="span1">
+								<form action="demo-form.php" method="get">
+									<input list="browsers" name="browser" placeholder="雅诗兰黛"/>
+									<datalist id="browsers">
+									   <option value="面部护肤">
+									   <option value="彩妆">
+									   <option value="香水">
+									   <option value="男士专区">
+									   <option value="健康美肌">
+									</datalist>
+									<span class="span2">
+										<button type="submit" class="btn btn-search submit-btn">搜索</button>
+									</span>
+								</form>
+							</span>
+							
+						</li>
+						
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="nav_category">
+			<div class="page_rs">
+				<div class="all_category">
+					<div class="divdiv">
+						<div class="div">
+							<div class="div1"></div>
+							<div class="div1"></div>
+							<div class="div1"></div>
+						</div>
+						<div class="div2">
+						全部分类
+						</div>
+					</div>
+					<div class="sasa_cate">
+						<ul class="ulsasa_cate">
+							<li class="lisasa_cate">
+								<div class="divsasa1">
+									<div class="div4"><i class="iconfont">&#xe622;</i></div>
+									<div class="div5"><a href="#">面部护肤</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate1">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>洁面/磨砂</b></a>
+										<br>
+										<a href="#">泡沫洁面乳</a>
+										<a href="#">洁面摩丝</a>
+										<a href="#">洁面咖喱</a>
+										<a href="#">洁面奶</a>
+										<a href="#">洁面皂</a>
+										<a href="#">洁面奶</a>
+										<a href="#">磨砂膏</a>
+										<a href="#">磨砂咖喱</a>
+									</div>
+								</div>
+							</li>
+							<li class="lisasa_cate">
+								<div class="divsasa2">
+									<div class="div4"><i class="iconfont">&#xe614;</i></div>
+									<div class="div5"><a href="#">彩妆</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate2">
+									<div class="divsasa">
+										<ul>
+											<li>
+												<a href="" class="class_a"><b>面部彩妆</b></a>
+												<br>
+												<a href="#">隔离霜</a>
+												<a href="#">粉底</a>
+												<a href="#">遮瑕</a>
+												<a href="#">BB霜</a>
+												<br>
+												<a href="#">CC霜</a>
+												<a href="#">胭脂</a>
+											</li>
+											<li>
+												<a href="" class="class_a"><b>眼部彩妆</b></a></a>
+												<br>
+												<a href="#">眉笔/眉粉</a>
+												<a href="#">眼影</a>
+												<a href="#">眼线</a>
+												<a href="#">睫毛膏</a>
+											</li>
+											<li>
+												<a href="" class="class_a"><b>其他</b></a>
+												<br>
+												<a href="#">美唇</a>
+												<a href="#">化妆棉</a>
+												<a href="#">美甲</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="lisasa_cate">
+								<div class="divsasa3">
+									<div class="div4"><i class="iconfont">&#xe647;</i></div>
+									<div class="div5"><a href="#">香水</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate3">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>香水</b></a>
+										<br>
+										<a href="#">女士香水</a>
+										<a href="#">男士香水</a>
+										<a href="#">香水套装</a>
+									</div>	
+								</div>
+							</li>
+							<li class="lisasa_cate">
+								<div class="divsasa4">
+									<div class="div4"><i class="iconfont">&#xe732;</i></div>
+									<div class="div5"><a href="#">健康美肌</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate4">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>健康美肌</b></a>
+										<br>
+										<a href="#">保健品</a>
+										<a href="#">非处方药</a>
+										<a href="#">健康零食</a>
+									</div>	
+								</div>
+							</li>
+							<li class="lisasa_cate">
+								<div class="divsasa5">
+									<div class="div4"><i class="iconfont">&#xe646;</i></div>
+									<div class="div5"><a href="#">纤体美胸</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate5">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>纤体美胸</b></a>
+										<br>
+										<a href="#">纤体护理</a>
+										<a href="#">纤体食品</a>
+										<a href="#">纤体工具</a>
+									</div>	
+								</div>
+							</li>
+							<li class="lisasa_cate">
+								<div class="divsasa6">
+									<div class="div4"><i class="iconfont">&#xe61d;</i></div>
+									<div class="div5"><a href="#">个人护理</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate6">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>身体护理</b></a>
+										<br>
+										<a href="#">洗发/护发</a>
+										<a href="#">头发造型</a>
+										<a href="#">女性护理</a>
+										<a href="#">手足护理</a>
+										<br>
+										<a href="#">脱毛用品</a>
+									</div>	
+								</div>
+							</li>
+							<li class="lisasa_cate">
+								<div class="divsasa7">
+									<div class="divsasa">
+									<div class="div4"><i class="iconfont">&#xe63e;</i></div>
+									<div class="div5"><a href="#">男士专区</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate7">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>男士专区</b></a>
+										<br>
+										<a href="#">男士洁面</a>
+										<a href="#">男士护肤</a>
+										<a href="#">男士头部护理</a>
+								
+									</div>
+								</div>
+							</li>
+							<li class="sasa_cate_aa">
+								<div class="divsasa8">
+									<div class="div4"><i class="iconfont">&#xe64f;</i></div>
+									<div class="div5"><a href="#">孕婴护理</a></div>
+									<div class="div6">
+										<span>
+											<i class="iconfont more_category">&#xe600;</i>
+										</span>
+									</div>
+								</div>
+								<div class="divsasa_cate8">
+									<div class="divsasa">
+										<a href="" class="class_a"><b>孕婴</b></a>
+										<br>
+										<div class="divsasa_aa">
+											<a href="#">母婴团</a>
+											<a href="#">婴儿护理</a>
+											<a href="#">婴儿食品</a>
+											<a href="#">孕妇食品</a>
+										</div>
+									</div>	
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tj_category_rs">
+					<ul>
+						<li class="tj_category"><a href="#">
+							<img src="img/icon-zz.gif"/>
+						</a></li>
+						<li><span>/</span></li>
+						<li>
+							<a href="#">面部护肤</a>
+						</li>
+						<li><span>/</span></li>
+						<li>
+							<a href="#">彩妆</a>
+						</li>
+						<li><span>/</span></li>
+						<li><a href="#">
+							限时特卖
+							<img src="img/xtp-(4)_45.gif" alt="" />
+						</a></li>
+						<li><span>/</span></li>
+						<li>
+							<a href="#">贵宾专享</a>
+						</li>
+						<li><span>/</span></li>
+						<li><a href="#">
+							闪电保税专区
+							<img src="img/xtp-(4)_45.gif" alt="" />
+						</a></li>
+						<li><span>/</span></li>
+						<li>
+							<a href="#">清仓特卖</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="divi">
+			<div class="conta">
+				<div data-ride="carousel" id="carousel_container" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="item"><img src="img/lbt-(1)_02.gif"></div>
+						<div class="item"><img src="img/lbt-(2)_02.gif"></div>
+						<div class="item"><img src="img/lbt-(3)_02.gif"></div>
+						<div class="item active"><img src="img/lbt-(4)_02.gif"></div>
+						<div class="item"><img src="img/lbt-(5)_02.gif"></div>
+						<div class="item"><img src="img/lbt-(6)_02.gif"></div>
+						<div class="item"><img src="img/lbt-(7)_02.gif"></div>
+					</div>
+					<ol class="carousel-indicators">
+						<li data-slide-to = "0" data-target = "#carousel_container"></li>
+						<li data-slide-to = "1" data-target = "#carousel_container"></li>
+						<li data-slide-to = "2" data-target = "#carousel_container"></li>
+						<li data-slide-to = "3" data-target = "#carousel_container"></li>
+						<li data-slide-to = "4" data-target = "#carousel_container"></li>
+						<li data-slide-to = "5" data-target = "#carousel_container"></li>
+						<li data-slide-to = "6" data-target = "注册carousel_container"></li>
+					</ol>
+					<!--
+                    	作者：153683162@qq.com
+                    	时间：2017-11-16
+                    	描述：
+                    <a href="#carousel_container" data-slide = "prev" class="left carousel-control">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#carousel_container" data-slide = "next" class="right carousel-control">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>-->
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="divo">
+			<ul>
+				<li><i class="iconfont">&#xe631;</i></li>
+				<li>
+					<a>【特别声明】冒充莎莎官网客服人员。 查看详情</a>
+				</li>
+			</ul>
+		</div>
+		<div class="sasa_wrapper">
+			<div class="sasa_wrapper_a">
+				<div class="sasa_wrapper_aa">
+					<img src="img/c (10).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">满￥168免邮</p>
+						<br>
+						<p class="p2">适用于保税仓商品</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (8).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">正品保证</p>
+						<br>
+						<p class="p2">专注美妆护肤39年</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (12).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">香港直邮</p>
+						<br>
+						<p class="p2">香港直发 美丽到家</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (9).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">30天退换保证</p>
+						<br>
+						<p class="p2">为您提供售后无忧保障</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (11).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">香港上市</p>
+						<br>
+						<p class="p2">股票代码：HK00178</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="divp">
+			<div class="div_a">
+				<span class="div1_a"><b>每日必看 MUST CHECK</b></span>
+			</div>
+		</div>
+		<div class="sasa" title="每日必看">
+			<div class="sasa_a">
+				<div class="divsasa_a">
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/0dc9775e1185e689b012e2c84a4dc7b72702f532.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb" style="margin-top: -40px;">
+							<img src="img/4299ce6275ed9d805b00a1ec2cea349ed637bbac.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/46151b2771d003058ff4d9fb1e1a36cd78a028b9.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb">
+							<img src="img/4e8e2e5de3202e41d9a5a066fd245f8cf70f779e.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/6583601ed345ff4cd63efc57f79e32e6d3c6ead3.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb">
+							<img src="img/752e56331a2d247c2c965c78bab6b115cd8ccc98.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/76e58644233bd291aa0c45be1828c9952feaf2e3.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb">
+							<img src="img/780017c98995f9023f4d39e0ce35ece3d9e99427.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/780703691ca6a86963720cfdc6dcbdfc38876390.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb">
+							<img src="img/945b384573d5f81e9f17ab5f8655a324fd4e1e77.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/a343522f16a546d584bc223b533cebfd81796614.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb">
+							<img src="img/adb0f2f95bedf7850a8abb8bc8ac3221bbe61960.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_aa">
+							<img src="img/bbb2b6a39b4d393eed62fa808c2927e9cdb55541.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+					<a href="每日必看.html" class="title">
+						<div class="sasa_bb">
+							<img src="img/d3a7207dd3005a37e03a92e4fea989fdbf61f7a4.jpg" alt="" />
+							<div class="sasa_aa_p">
+								<p class="p1">秋分时分 告别干燥</p>
+								<p class="p2">倩碧让美丽持久不变</p>
+								<p class="p3">全场低至48折起</p>
+								<a href="" class="sasa_aaa"><p>立即疯抢</p></a>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="div_b">
+			<div class="div1">
+				<span class="div1_a"><b>限时特卖 LIMITED OFFER</b><br>
+				<p>每天09：00准时开抢</p></span>
+			</div>
+		</div>
+		<div class="sasa_limit" title="限时特卖">
+			<div class="sasa_limit_a">
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/0c72f89fc859c9833e5ccacf70ad8efc16ff0e7c.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/acad39348b02420526f3b4ff71a632f0537a11fa.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime2"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/bbd3c0d8cb1fa0e3aeaab2d0cf433572361f16eb (1).jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime3"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/e89b93b358931325d752c72558df67fe942372c8.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime4"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/4675ef2803d36bd882334dc0fb366d2c0be7662f.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime5"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/8d2c4e46f933d3f527a27e3160bbffe30ba96286.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime6"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/6efebddad30037fe47b4a88626b7bc2632f8cd12.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime7"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/1874f8b7091bd79cf6de7be639d5d126ae4e11b9.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime8"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/1f612e224326e26c2bf722a15dd7fe94340889e8.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime9"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+				<a href="限时特卖.html">
+					<div class="sasa_limit_img">
+						<div class="div_left"><i>6.1折</i></div>
+						<img src="img/efd6856cfd876fdd5eb6784e41fe031e2f1178a0.jpg"/>
+						<div class="divsasa_limit">
+							<div class="time"><span id="LeftTime10"></span></div>
+							<p class="p1"><span>‘‘ </span>揉合独家专利生物活力细胞复合元素（BCC）、三重保湿升<br>华复合物、三重生肌精华三种高科技配方</p>
+							<p class="p2">瑞士葆美丽 升级版活氧细胞生肌升华露 60毫升</p>
+							<span class="span1"><b>￥</b></span>
+							<span class="span2"><b>219</b></span>
+							<span class="span3"><del>￥605<del></span>
+							<br>
+							<span class="span4">已售2件</span>
+							<a href="" class="sasa_aaa"><p>马上抢</p></a>	
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="div_c">
+			<a href="#">
+				<div class="div1">
+					查看更多特卖
+				</div>
+			</a>
+		</div>
+		<!--
+        	作者：153683162@qq.com
+        	时间：2017-11-16
+        	描述：
+        <div class="div-d">
+			<div class="div1">
+				<span class="div1-a"><b>销售排行榜 TOP 5 </b><br>
+			</div>
+		</div>-->
+		<div class="newrrivals" title="新品上市">
+			<div class="sasa_new">
+				<div class="dive">
+					<div class="div1">
+						<span><b>新品 NEW ARRIVAL</b></span>
+					</div>
+				</div>
+				<ul class="ul_sasa_new">
+					<li class="li_sasa_new">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul>
+								<li class="li1"><a href="#"><img src="img/7870f675d14719a02a8b92c0e2ebae1ce00e5079 (1).png" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/422f4110e4ef617a68c6544dcdd8556b4c67abe3.jpg" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/9a8d8c2525c48f25247b94f989f17a295cd6cc30.jpg" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/e4a2892a104c698d613cc0c4ff390d6aaaccf2c8.jpg" style="width: 271px; height: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul class="ul_sasa_new">
+					<li class="li_sasa_new">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul>
+								<li class="li1"><a href="#"><img src="img/6e0fc24321af187f1f91d22e8677692c19f522d4.jpg" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/17ff0d507763c7a88fcc4164fd56a1df4195b334.jpg" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/3bf145ca0fe5744fe91b2afbd4aebf2e5b3b30dc.jpg" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/6218ff5caf4d0e857dbef26cd106666394ade60e.jpg" style="width: 271px; height: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+				<ul class="ul_sasa_new">
+					<li class="li_sasa_new">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul>
+								<li class="li1"><a href="#"><img src="img/f50527eea28b0f8c211500874e2d9ae91b82cc18.jpg" style="width: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/79b82f939668a97d2ff2a0412bc71d40146f1ed8.jpg" style="width: 271px;height: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/65338def58b5a88a801e3ab86ff19b5b47f4974b.jpg" style="width: 271px;height: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+					<li class="li_sasa_new_aa">
+						<div class="div_sasa_new">
+							<div class="ompp">
+								<img src="img/2d54e4c0f0e220f3cabe91e71562545a50b01308.png"/>
+								<p>欧美品牌</p>
+							</div>
+							<div class="divr"><p>新品<br>上市</p></div>
+							<div class="divh">
+								<a href="#">
+									<p><i><b>去看看</b></i></p>
+								</a>
+							</div>
+							<ul class="div_sasa_new_ul">
+								<li class="li1"><a href="#"><img src="img/5d117c8a39e98962a232f1d190bf165ead553cb3.jpg" style="width: 271px; height: 271px;"></a></li>
+								<li class="li2"><a href="#">彼得罗夫 冬日保湿套装 3件</a></li>
+								<li class="li3">
+									<span class="span1">￥</span>
+									<span class="span2">245</span>
+									<span class="span3"><del>￥765.0<del></span>
+								</li>
+							</ul>
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="sasa_wrapper">
+			<div class="sasa_wrapper_a">
+				<div class="sasa_wrapper_aa">
+					<img src="img/c (10).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">满￥168免邮</p>
+						<br>
+						<p class="p2">适用于保税仓商品</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (8).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">正品保证</p>
+						<br>
+						<p class="p2">专注美妆护肤39年</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (12).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">香港直邮</p>
+						<br>
+						<p class="p2">香港直发 美丽到家</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (9).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">30天退换保证</p>
+						<br>
+						<p class="p2">为您提供售后无忧保障</p>
+					</div>
+				</div>
+				<div class="sasa_wrapper_bb">
+					<img src="img/c (11).gif"/>
+					<div class="sasa_wrapper_aaa">
+						<p class="p1">香港上市</p>
+						<br>
+						<p class="p2">股票代码：HK00178</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page_rss">
+			<div class="footer_left">
+				<div class="footer_left_a">
+					<ul class="footer_left_ul">
+						<li class="footer_left_li">
+							<p><b>新手上路</b></p>
+							<br>
+							<a href="#">购物流程</a>
+							<br>
+							<a href="#">优惠券说明</a>
+							<br>
+							<a href="#">常见问题</a>
+							<br>
+							<a href="#">联络我们</a>
+							<br>
+							<a href="#">购物流程</a>
+							<br>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<p><b>支付方式</b></p>
+							<br>
+							<a href="#">在线支付</a>
+							<br>
+							<a href="#">积分支付</a>
+						</li>
+						<li>
+							<p><b>配送方式</b></p>
+							<br>
+							<a href="#">配送说明</a>
+							<br>
+							<a href="#">追踪订单</a>
+						</li>
+						<li>
+							<p><b>售后服务</b></p>
+							<br>
+							<a href="#">正品保证</a>
+							<br>
+							<a href="#">价格承诺</a>
+							<br>
+							<a href="#">30日退换保证</a>
+							<br>
+							<a href="#">退款程序</a>
+							<br>
+							<a href="#">更改订单</a>
+						</li>
+						<li>
+							<p><b>莎莎会员</b></p>
+							<br>
+							<a href="#">积分奖赏</a>
+							<br>
+							<a href="#">VIP会员计划</a>
+						</li>
+					</ul>
+					<div class="footer_right">
+						<div class="footer_right_a">
+							<img src="img/c (13).gif">
+							<p>莎莎网官方微博</p>
+							<p>@莎莎网</p>
+						</div>
+						<div class="footer_right_b">
+							<img src="img/c (14).gif">
+							<p>ID:lvgjijfuf</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="divf">
+			<div class="footer_left_b">
+				<ul>
+					<li class="footer_left_li"><img src="img/c (1).gif"></li>
+					<li><img src="img/c (5).gif"></li>
+					<li><img src="img/c (2).gif"></li>
+					<li><img src="img/c (3).gif"></li>
+					<li><img src="img/c (15).gif"></li>
+					<li><img src="img/c (4).gif"></li>
+					<li><img src="img/c (6).gif"></li>
+					<li><img src="img/c (7).gif"></li>
+				</ul>
+			</div>
+			<div class="divf_a">
+				<ul>
+					<li><a href="#">关于莎莎</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">使用条款</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">批发服务</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">招商合作</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">港澳店铺推广</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">人才招聘</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">联络我们</a></li>
+					<li><span> | </span></li>
+					<li><a href="#">其他送货地区</a></li>
+					<li class="li">Copyright 2000-2016 Sa Sa dot Com Limited 版权所有莎莎国际控股有限公司成员</li>
+				</ul>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="sidebar_a"></div>
+				<a href="#">
+					<div class="box1">
+						<span>
+							<i class="iconfont" style="font-size: 24px; margin-left: 8px;">&#xe70e;</i>
+						</span>
+						<a href="#">
+							<div class="box_a">
+								我的账户
+								<div class="box_b"></div>
+							</div>
+						</a>
+					</div>
+				</a>
+				<a href="#">
+					<div class="box2">
+						<span>
+							<i class="iconfont more_category">&#xe601;</i>
+						</span>
+						
+						<span class="span1"><p>购物车</p></span>
+						<span class="span2"><p>0</p></span>
+					</div>
+				</a>
+				<a href="#">
+					<div class="box3">
+						<span>
+							<i class="iconfont more_category">&#xe86f;</i>
+						</span>
+						
+					</div>
+				</a>
+				<a href="#">
+					<div class="box4">
+						<span>
+							<i class="iconfont more_category">&#xe64d;</i>
+						</span>
+						
+					</div>
+				</a>
+				<a href="#">
+					<div class="box5">
+						<span>
+							<i class="iconfont more_category">&#xe649;</i>
+						</span>
+						
+					</div>
+				</a>	
+				
+				<a href="#top">
+					<div class="box6">
+						<span>
+							<i class="iconfont more_category">&#xe60c;</i>
+						</span>
+						
+						<br>
+						<img src="img/xtp-(4)_90.gif">
+						<p>TOP</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $(".box1").hover(function(){
+			    $(".box_a").fadeIn(2000);
+			    $(".box_a").css("margin-right","100px");
+			  });
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $(".box1").hover(function(){
+			    $(".box_a").fadeOut(2000);
+			  });
+			});
+		</script>
+		<script type="text/javascript">  
+			function FreshTime()
+			{
+			    var endtime=new Date("2017/12/29,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%24);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime").innerHTML="剩余"+" "+h+"："+m+"："+s;
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+    	</script> 
+    	<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/21,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime2").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/20,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime3").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/19,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime4").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/18,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime5").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/17,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime6").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/16,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime7").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/15,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime8").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/14,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime9").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+		</script>  
+		<script type="text/javascript"> 
+    		function FreshTime()
+			{
+			    var endtime=new Date("2017/12/26,12:20:12");//结束时间
+			    var nowtime = new Date();//当前时间
+			    var lefttime=parseInt((endtime.getTime()-nowtime.getTime())/1000); 
+			    
+			    h=parseInt((lefttime/3600)%60);
+			    m=parseInt((lefttime/60)%60);
+			    s=parseInt(lefttime%60);
+ 
+    			document.getElementById("LeftTime10").innerHTML="剩余"+" "+h+"："+m+"："+s;
+    			
+			}
+    			FreshTime();
+    			var sh;
+    			sh=setInterval(FreshTime,1000);
+    			
+    		var divo = ["<a>【特别声明】冒充莎莎官网客服人员。 查看详情</a>","<a>【特别声明】冒充莎莎官网客服人员。 查看详情</a>","<a>【特别声明】冒充莎莎官网客服人员。 查看详情</a>"]
+			for(var i=0,i<.divo.a.length,i++){
+				do
+			}
+		</script>  
+	</body>
+</html>

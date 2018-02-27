@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>注册</title>
+		<link rel="icon" type="text/css" href="https://cdnec.sasa.com/public/app/site/statics/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" href="js/js/css/bootstrap.min.css"/>
+		<script type="application/javascript" src="js/js/jquery-1.11.0.js"></script>
+		<script language="javascript" src="js/js/js/bootstrap.min.js"></script>
+		<script language="javascript" src="js/new_file.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+</script>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		@font-face {
+			  font-family: 'iconfont';  /* project id 503265 */
+			  src: url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.eot');
+			  src: url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.eot?#iefix') format('embedded-opentype'),
+			  url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.woff') format('woff'),
+			  url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.ttf') format('truetype'),
+			  url('//at.alicdn.com/t/font_503265_nu8hjv1fozk9be29.svg#iconfont') format('svg');
+			}
+			.iconfont{
+			  font-family:"iconfont" !important;
+			  font-size:19px;
+			  font-style:normal;
+			  color: #ec3e7d;
+			  -webkit-font-smoothing: antialiased;
+			  -webkit-text-stroke-width: 0.2px;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+		.header_main{
+			width: 80%;
+			margin: auto;
+		}
+		.header_main .page_rs{
+			width: 100%;
+		}
+		.page{
+			width: 100%;
+			height: 480px;
+			margin-top: 30px;
+		}
+		.page_a{
+			width: 80%;
+			height: 480px;
+			margin: auto;
+			background-image: url(img/cecc204b4820bd74bf72910e6ba440fae2b83342.jpg);
+			background-repeat:no-repeat;
+			margin-top: 110px;
+			position: relative;
+		}
+		.page_a .page_aa{
+			width: 420px;
+			height: 526px;
+			
+			float: right;
+			margin-right: 50px;
+			position: absolute;
+			top: -89px;
+			left: 600px;
+			box-shadow: 2px 2px 30px #CCCCCC;
+		}
+		.page_aaa{
+			margin: 20px;
+			margin-left: 35px;
+			margin-right: 35px;
+		}
+		.page_zc{
+			height: 30px;
+			margin-bottom: 50px;
+		}
+		.page_zc .zc{
+			float: right;
+			font-size: 25px;
+			margin-top: 16px;
+			color: #5E5E5E;
+			float: left;
+		}
+		.page_zc .zh{
+			width: 120px;
+			float: left;
+		}
+		.page_zc span{
+			width: 200px;
+			float: right;
+			margin-top: 23px;
+			color: #888888;
+		}
+		.page_zc span .dl{
+			color: #ec3e7d;
+			float: right;
+			margin-right: 24px
+		}
+		.page_zc span a:hover{
+			text-decoration: none;
+		}
+		.page_input ul li{
+			list-style: none;
+			margin-bottom: 10px;
+		}
+		.page_input ul .input_li a{
+			text-align: center;
+			color: white;
+			line-height: 36px;
+			font-size: 18px;
+		}
+		.page_input ul .input_li a:hover{
+			text-decoration: none;
+		}
+		.page_input ul li .ng_dirty{
+			width: 348px;
+			height: 36px;
+			padding: 7px;
+		}
+		#submit{
+			width: 348px;
+			height: 36px;
+			background-color: #ec3e7d;
+			color: white;font-size: 19px;
+			outline: #ec3e7d;
+			border: none;
+		}
+		input{
+			outline: none;
+			width: 350px;
+    		height: 38px;
+   			padding: 8px;
+   			margin-bottom: 17px;
+		}
+		
+		.leftside{
+			width:100px;
+			text-align:right;
+			float:left;
+		} 
+		label.error{
+			color:#ea5200; 
+			margin-left:4px; 
+			padding:0px 20px; 
+			background:url(http://jt.875.cn/icon/unchecked.gif) no-repeat 2px 0 
+		} 
+		label.right{
+			margin-left:4px; 
+			padding-left:20px; 
+			background:url(http://jt.875.cn/icon/checked.gif) no-repeat 2px 0
+			} 
+		
+		.submit #submit{
+			    width: 350px;
+    			height: 42px;
+    			background-color: #ec3e7d;
+   			 	border: none;
+    			outline: none;
+		}
+		</style> 
+		<script type="text/javascript" src="http://jt.875.cn/js/jquery.js"></script> 
+		<script type="text/javascript" src="http://jt.875.cn/js/jquery.validate.js"></script> 
+		<script type="text/javascript"> 
+			$(function(){ 
+				$( "#regForm" ).validate({ 
+					rules: { 
+					// 注册用户名 
+						username: { 
+							required: true, 
+							minlength: 5, 
+							maxlength: 12 
+						}, 
+						// email 
+						email: { 
+							required: true, 
+							email: true 
+						}, 
+						// 密码 
+						password: { 
+							required: true, 
+							minlength: 6, 
+							maxlength: 18 
+						}, 
+						// 确认密码 
+						confirm_password: { 
+							equalTo:"#password" 
+						}, 
+						// 检验验证码 
+						captcha: { 
+							required: true, 
+							remote: "checkCaptcha.php" 
+						} 
+						}, 
+						messages: { 
+						// 注册用户名 
+							username: { 
+								required: "此项不能为空", 
+								minlength: "不能少于5个字符", 
+								maxlength: "不能多于12个字符" 
+						}, 
+						// email 
+						email: { 
+							required: "此项不能为空", 
+							email: "email格式不正确" 
+						}, 
+						// 密码 
+						password: { 
+							required: "此项不能为空", 
+							minlength: "不能少于6个字符", 
+							maxlength: "不能多于18个字符" 
+						}, 
+						// 确认密码 
+						confirm_password: "两次输入密码不一致", 
+						// 检验验证码 
+						captcha: { 
+							required: "请输入验证码", 
+							remote: "验证码输入错误" 
+						} 
+					} 
+				}); 
+			}); 
+		</script> 
+	<body>
+		<div class="topbar" id="top">
+			<div class="page_rs">
+				<div class="login_bar">
+					<span class="login_bar_a">欢迎光临莎莎网！</span>
+					<span class="login_bar_b" style="float: right; width: 87px; height: 32px;">
+						<a href="登录.html" style="width: 36px; font-size: 13px;">登录</a>
+						<p style="width: 15px; float: left; font-size: 13px;">或</p>
+						<a href="注册.html" style="font-size: 13px; width: 36px; float: right;">注册</a>
+					</span>
+				</div>
+				<div class="member_link">
+					<ul>
+						<li>
+							<div class="linka">
+								<a href="#" style="position: relative;">
+									<i class="iconfont">&#xe604;</i>
+									<span>我的账户</span>
+									<i class="iconfont" style="color: #8C8888; position: absolute; top: 3px; left: 90px;">&#xe606;</i>
+								</a>
+							</div>
+							<div class="linkb">
+								<ul>
+									<li>
+										<a href="注册.html">立即注册</a>
+									</li>
+									<li>
+										<a href="登录.html">立即登录</a>
+									</li>
+									<li>
+										<a href="#">我的订单</a>
+									</li>
+									<li>
+										<a href="#">我的积分</a>
+									</li>
+									
+									<li>
+										<a href="#">我的收藏</a>
+									</li>
+									<li>
+										<a href="#">我的评分</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="gwc">
+								<a href="#">
+									<i class="iconfont" style="font-size: 15px; margin-left: 11px;">&#xe602;</i>
+									<span>我的购物车</span>
+								</a>
+							</div>
+							<div class="gwca">
+								<ul>
+									<li>
+										<p>购物车中还没有商品，</p>
+									</li>
+									<br>
+									<li>
+										<p>快去挑选心爱的商品吧</p>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<i class="iconfont" style="font-size: 15px; margin-left: 18px;">&#xe60e;</i>
+								<span>我的收藏</span>
+							</a>
+						</li>
+						<li>
+							<span>我的站内信</span>
+						</li>
+						<li><span>积分中心</span></li>
+						<li class="member_link_a">
+							<span class="span1">关注我们</span>
+							<span class="span2">
+								<i class="iconfont" style="color: #e89b2c;">&#xe60d;</i>
+								<img src="img/c (13).gif" alt=""  class="imga" style="width: 90px;"/>
+							</span>
+							<span class="span3">
+								<i class="iconfont" style="color: #4CAE4C;">&#xe65e;</i>
+								<img src="img/c (14).gif" alt=""  class="imgb" style="width: 90px;"/>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="header_main">
+			<div class="page_rs">
+				<div class="page_rs_z">
+					<a href="首页.html">
+						<img src="img/xtp-(4)_26.gif"/>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page_a">
+				<div class="page_aa">
+					<div class="page_aaa">
+						<div class="page_zc">
+							<p class="zc">注册帐号</p>
+							<span>
+								<p class="zh">已有莎莎网帐号？</p>
+								<a href="登录.html" class="dl">立即登录</a>
+							</span>
+						</div>
+						<div class="page_input">
+							<form id="regForm" method="get" action=""> 
+								<p>
+									<input type="text" value="" placeholder="请输入昵称" name="username" id="username"/></p> 
+								
+								<p><input type="password" value=""  placeholder="请输入密码" name="password" id="password" /></p> 
+								
+								<p><input type="password" value=""   placeholder="确认密码" name="confirm_password" id="confirm_password" /></p> 
+								
+								<p><input type="text" value=""   placeholder="请输入邮箱" name="email" id="email" /></p>
+								
+								<p class="submit"><input type="submit" name="submit" id="submit" value="提交" /></p>
+							</form> 
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
